@@ -1,0 +1,1 @@
+torchrun --nnodes=1 --node_rank=0 --nproc-per-node=2 spmd_main.py --local_world_size=1
